@@ -1,4 +1,4 @@
-name: 刷步数
+名称：刷步数
 
 on:
   push:
@@ -6,10 +6,10 @@ on:
   pull_request:
     branches: [ master ]
   schedule:
-    - cron: 0 1 * * *
+    -的cron ：0 10 * * *
 
-jobs:
-  build:
+职位：
+  建立：
     runs-on: ubuntu-latest
     if: github.event.repository.owner.id == github.event.sender.id
 
